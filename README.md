@@ -1,5 +1,5 @@
 
-# Aero-Cast-Bot
+# AeroCastBot
 
 This project creates a Telegram bot that provides current weather information based on the city name provided by the user. When a user sends a city name, the bot fetches the weather data and replies with the temperature and weather status.
 

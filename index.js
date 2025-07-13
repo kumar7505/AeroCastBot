@@ -1,6 +1,6 @@
 const axios = require('axios');
 const {Telegraf} = require('telegraf');
-const TOKEN = "8188467356:AAEmzAy6I8USD0eUjwm8vM-XOv4oTnIyzvo";
+const TOKEN = process.env.TOKEN;
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new Telegraf(TOKEN);
